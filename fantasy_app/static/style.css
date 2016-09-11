@@ -1,0 +1,14 @@
+.navbar-default {
+	color: #3f516b;
+}
+.navbar-default .navbar-brand {
+    color: #3f516b;
+}
+
+.navbar-default .navbar-collapse {
+	color: #3f516b;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #3f516b;
+}
