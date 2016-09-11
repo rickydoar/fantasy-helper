@@ -28,15 +28,16 @@ html,
 body {
   height: 100%;
   background-color: black;
-  background-image: url("http://bjstlh.com/data/wallpapers/198/WDF_2360569.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: url("http://bjstlh.com/data/wallpapers/198/WDF_2360569.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -83,7 +84,6 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
